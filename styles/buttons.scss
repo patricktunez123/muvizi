@@ -1,0 +1,24 @@
+.muvizi_btn {
+  border: none !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.btn_large {
+  padding: 1.6rem 3rem;
+}
+
+.btn_primary {
+  background: #ef4544;
+  color: #e8e7e7;
+  border-color: #ef4544;
+  &:focus,
+  &:active {
+    background: #ef4544;
+    color: #e8e7e7;
+  }
+  &:hover {
+    background: #d64747;
+    color: #e8e7e7;
+  }
+}
